@@ -3,24 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{43C5CF31-6F5E-42E3-9825-D9739F63ABCC}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HazelGameEngine", "HazelGameEngine\HazelGameEngine.vcxproj", "{EC599F4F-4538-45C7-B785-15CA26BDE8A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Debug|x64.ActiveCfg = Debug|x64
 		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Debug|x64.Build.0 = Debug|x64
-		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Debug|x86.ActiveCfg = Debug|Win32
-		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Debug|x86.Build.0 = Debug|Win32
 		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Release|x64.ActiveCfg = Release|x64
 		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Release|x64.Build.0 = Release|x64
-		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Release|x86.ActiveCfg = Release|Win32
-		{EC599F4F-4538-45C7-B785-15CA26BDE8A7}.Release|x86.Build.0 = Release|Win32
+		{43C5CF31-6F5E-42E3-9825-D9739F63ABCC}.Debug|x64.ActiveCfg = Debug|x64
+		{43C5CF31-6F5E-42E3-9825-D9739F63ABCC}.Debug|x64.Build.0 = Debug|x64
+		{43C5CF31-6F5E-42E3-9825-D9739F63ABCC}.Release|x64.ActiveCfg = Release|x64
+		{43C5CF31-6F5E-42E3-9825-D9739F63ABCC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
