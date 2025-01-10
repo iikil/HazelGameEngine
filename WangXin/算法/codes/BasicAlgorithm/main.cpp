@@ -1,6 +1,4 @@
-//#include "bits/stdc++.h"
-#include <iostream>
-#include <vector>
+#include "bits/stdc++.h"
 
 using namespace std;
 
@@ -22,7 +20,7 @@ int partition(vector<int> &a, int l, int r){
 }
 
 void quickselect(vector<int> &a, int l, int r, int k){
-    if(l >= r) return;
+    if(l > r) return;
     int pivot = partition(a, l, r);
     if(pivot > k){
         quickselect(a, l, pivot - 1, k);
